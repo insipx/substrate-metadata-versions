@@ -365,6 +365,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "frame-metadatav8"
+version = "2.0.0"
+dependencies = [
+ "parity-scale-codec",
+ "serde",
+ "sp-core",
+ "sp-std",
+]
+
+[[package]]
 name = "futures"
 version = "0.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1325,16 +1335,6 @@ dependencies = [
  "parity-scale-codec",
  "sp-std",
  "wasmi",
-]
-
-[[package]]
-name = "srml-metadata"
-version = "2.0.0"
-dependencies = [
- "parity-scale-codec",
- "serde",
- "sp-core",
- "sp-std",
 ]
 
 [[package]]
