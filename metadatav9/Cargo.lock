@@ -365,7 +365,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "frame-metadata"
+name = "frame-metadatav9"
 version = "2.0.0"
 dependencies = [
  "parity-scale-codec",
