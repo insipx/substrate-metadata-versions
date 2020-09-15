@@ -273,6 +273,7 @@ impl rstd::fmt::Debug for DefaultByteGetter {
 pub enum StorageHasher {
 	Blake2_128,
 	Blake2_256,
+    Blake2_128Concat,
 	Twox128,
 	Twox256,
 	Twox64Concat,
