@@ -8,8 +8,8 @@ license = "GPL-3.0"
 [dependencies]
 codec = { package = "parity-scale-codec", version = "1", default-features = false, features = ["derive"] }
 serde = { version = "1.0.101", optional = true, features = ["derive"] }
-sp-std = { version = "2.0.0-rc6", default-features = false, git = "https://github.com/paritytech/substrate" , rev = "35fe3cd1bc4b64cadb0bc6196ae40173db65bb28" }
-sp-core = { version = "2.0.0-rc6", default-features = false,  git = "https://github.com/paritytech/substrate" , rev = "35fe3cd1bc4b64cadb0bc6196ae40173db65bb28" }
+sp-std = { version = "2.0.0-rc6", default-features = false, git = "https://github.com/paritytech/substrate" , rev = "647ad15565d7c35ecf00b73b12cccad9858780b9" }
+sp-core = { version = "2.0.0-rc6", default-features = false,  git = "https://github.com/paritytech/substrate" , rev = "647ad15565d7c35ecf00b73b12cccad9858780b9" }
 
 [features]
 default = ["std"]
