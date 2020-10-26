@@ -1,5 +1,5 @@
 [package]
-name = "frame-metadata"
+name = "frame-metadatav11"
 version = "11.0.0-rc6"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2018"
